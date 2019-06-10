@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files (x86)/Java/jdk1.8.0_111/include/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+C:/Program Files (x86)/Java/jdk1.8.0_111/include/jni_md.h
+
+C:/Program Files (x86)/Java/jdk1.8.0_111/include/win32/jni_md.h
+
+G:/HelloWorld/HelloWorld.c
+jni.h
+G:/HelloWorld/jni.h
+HelloWorld.h
+G:/HelloWorld/HelloWorld.h
+
+G:/HelloWorld/HelloWorld.h
+jni.h
+G:/HelloWorld/jni.h
+

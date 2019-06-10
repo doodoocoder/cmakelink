@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/HelloWorld/HelloWorld.cpp
+jni.h
+G:/HelloWorld/jni.h
+HelloWorld.h
+G:/HelloWorld/HelloWorld.h
+
+G:/HelloWorld/HelloWorld.h
+jni.h
+G:/HelloWorld/jni.h
+
+G:/HelloWorld/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+G:/HelloWorld/jni_md.h
+
+G:/HelloWorld/jni_md.h
+
